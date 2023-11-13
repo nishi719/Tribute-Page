@@ -1,0 +1,152 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #a18181;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a18181;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 10px;
+}
+
+#main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8e8a8cde;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #a18181;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+/* Highlight the name in the first paragraph */
+p:first-child::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Add a border to the header for emphasis */
+header {
+    border-bottom: 3px solid #f7941d;
+}
+
+/* Style the header text */
+header h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Add a subtle background color to the header */
+header {
+    background-color: #a18181;
+}
+
+/* Change the color of the links within the text */
+a {
+    color: #f7941d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for achievements section */
+#achievements {
+    border-top: 2px solid #f7941d;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#achievements h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.achievements  {
+    margin: 20px;
+    display: inline-block;
+    width: 45%; /* Adjust the width to fit your design */
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.achievement-icon {
+    flex: 1;
+    text-align: center;
+}
+
+
+.achievement-icon img {
+    max-width: 100%;
+    border: 3px solid #f7941d;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888;
+}
+
+.achievement-description {
+    flex: 3;
+    padding: 10px;
+    color: #0f0e16;
+}
+
+.achievement-description p {
+    font-size: 18px;
+    text-align: left;
+}
+.achievement-description h3{
+    color: #fff;
+}
+
+/* Styling for quotes section */
+#quotes {
+    border-top: 2px solid #f7941d;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#quotes h2 {
+    font-size: 24px;
+    color: #fffefe;
+}
+
+.quote-image {
+    margin: 20px;
+    display: inline-block;
+    width: 45%; /* Adjust the width to fit your design */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.quote-image img {
+    max-width: 100%;
+    border: 3px solid #f7941d;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888;
+}
+
